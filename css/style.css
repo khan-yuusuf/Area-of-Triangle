@@ -1,0 +1,112 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+header {
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+main form#area-of-tri {
+  width: 80vw;
+  margin: 1rem 1rem;
+  padding: 15px;
+}
+
+.hidden {
+  display: none;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  width: 100%;
+  padding: 25px 10px;
+}
+
+.row {
+  display: inline-block;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+
+.row label {
+  clear: none;
+  width: 4rem;
+  margin-right: 10px;
+}
+
+.input,
+.output {
+  width: 10rem;
+  max-width: 10rem;
+  height: 2.5rem;
+  max-height: 2rem;
+  margin: 0;
+  padding: 0 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: right;
+  vertical-align: bottom;
+}
+
+#calculate-button {
+  width: max-content;
+  margin-top: 0.5rem;
+  margin-left: 7rem;
+  margin-right: 0;
+  padding: 5px 10px;
+  border-color: rgb(50, 100, 250);
+  border-radius: 5px;
+  background-color: rgb(50, 100, 250);
+  color: rgb(250, 250, 250);
+}
+
+footer {
+  min-width: 100%;
+  min-height: 100px;
+  height: max-content;
+  margin: 0;
+  padding: 0;
+  padding-top: 0.25px;
+  padding-bottom: 1rem;
+  border: none;
+  border-top: 1px solid rgb(240, 240, 240);
+  background-color: rgb(120, 120, 120);
+  color: rgb(235, 235, 235);
+}
+
+footer div:first-child {
+  padding: 15px 20px;
+  padding-bottom: 5px;
+}
+
+footer div {
+  padding: 5px 20px;
+}
+
+footer a {
+  color: inherit;
+  text-decoration: none !important;
+}
+
+a.social-icon,
+a.social-link {
+  font-size: 1.5rem;
+}
